@@ -22,13 +22,4 @@ O site da Pró-Feminy tem como objetivo apresentar a academia, seus serviços e 
 ## 📁 Estrutura do Projeto
 
 ```bash
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── styles/
-│   └── App.[js|tsx]
-├── .gitignore
-├── package.json
-└── README.md
+

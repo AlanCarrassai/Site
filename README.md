@@ -4,14 +4,14 @@ Bem-vindo/a ao repositório do site da **Pró-Feminy**, uma academia pensada esp
 
 ## Sobre o Projeto
 
-O site da Pró-Feminy tem como objetivo apresentar a academia, seus serviços e diferenciais, além de facilitar o contato com novas alunas. É um ambiente onde mulheres podem conhecer a estrutura da academia, horários, planos e muito mais.
+O site da Pró-Feminy tem como objetivo apresentar a academia, seus serviços e diferenciais, além de facilitar o contato com novas alunas. É um ambiente onde mulheres podem conhecer a estrutura da academia, horários, modalidades e muito mais.
 
 ## Funcionalidades
 
 - Página inicial com apresentação da academia
-- Grade de horários das aulas
-- Galeria de fotos e vídeos
-- Integração com redes sociais
+- Descrição sobre o funcionamento
+- Integração com Google Maps
+- Botões para contato em redes sociais
 
 ## Tecnologias Utilizadas
 

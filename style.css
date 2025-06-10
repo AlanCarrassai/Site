@@ -89,7 +89,7 @@ header .container {
 }
 
 .main-nav ul li a {
-  font-size: 18px;
+  font-size: 16px;
   color: #555;
 }
 
@@ -98,7 +98,7 @@ header .container {
 }
 
 .hero-section {
-  padding: 30px 0;
+  padding-top: 40px 0;
 }
 
 .hero-image {
@@ -354,7 +354,7 @@ iframe {
 .facebook-icon {
   width: 50px;
   height: 50px;
-  background-color: #3b5998;
+  background-color: #0166ff;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -367,7 +367,7 @@ iframe {
 }
 
 .facebook-icon:hover {
-  background-color: #2a4175;
+  background-color: #0166ff;
 }
 
 .whatsapp-icon img,
@@ -534,6 +534,7 @@ footer {
     color: #777;
     border-top: 1px solid #e0e0e0;
     margin-top: 20px;
+}
 
 main,
 header,

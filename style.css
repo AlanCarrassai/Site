@@ -298,7 +298,6 @@ header .container {
   flex: 1;
 }
 
-/* Imagens com efeitos avançados */
 .info-block-image {
   height: 400px;
   background-size: cover;
@@ -309,7 +308,6 @@ header .container {
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-/* Overlay gradiente nas imagens */
 .info-block-image::before {
   content: '';
   position: absolute;
@@ -717,8 +715,16 @@ footer {
 
 /* Responsividade aprimorada */
 @media (max-width: 992px) {
-  .main-nav ul {
-    gap: 15px;
+
+  .info-block {
+    min-height: 500px;
+    flex-direction: column !important;
+  }
+
+  .info-block-image {
+    height: 280px; 
+    min-height: 250px; 
+    border-radius: 32px 32px 0 0 !important;
   }
 
   .info-block {
@@ -756,10 +762,34 @@ footer {
 }
 
 @media (max-width: 768px) {
-  header .container {
-    flex-direction: column;
-    gap: 15px;
+  .info-block-image {
+    height: 280px; /* Já tem isso, mas garanta que não seja sobrescrito */
+    min-height: 200px; /* Adicione um min-height para garantir que sempre tenha altura */
   }
+  .info-block { /* Se o .info-block está espremendo o .info-block-image */
+    min-height: 350px; /* Garante uma altura mínima para o bloco inteiro */
+  }
+}
+
+  .main-nav ul {
+    justify-content: center; /* Garante que os botões estejam centralizados */
+    flex-wrap: wrap;
+    gap: 10px 15px;
+  }
+
+  /* Opcional: ajustar padding dos botões se eles ficarem muito grandes */
+  .nav-button {
+    padding: 8px 8px;
+    font-size: 14px;
+  }
+}
+
+/* E, no seu CSS normal (fora da media query), para o .logo img: */
+.logo img {
+  height: 100px; /* Tamanho original para desktop */
+  width: auto;
+  display: block;
+}
 
   .main-nav ul {
     justify-content: center;

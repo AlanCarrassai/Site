@@ -13,13 +13,4 @@ O site da Pró-Feminy tem como objetivo apresentar a academia, seus serviços e 
 - Integração com Google Maps
 - Botões para contato em redes sociais
 
-## Tecnologias Utilizadas
-
-- HTML5 + CSS3
-- [Framework: Placeholder]
-- [Hospedagem: Placeholder]
-
-## Estrutura do Projeto
-
-```bash
-
+www.profeminy.com.br
